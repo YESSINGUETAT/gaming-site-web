@@ -1,0 +1,34 @@
+.glop{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,lfr);
+    grid-template-rows: repeat(1,lfr);
+    width: 85%;
+    margin:auto;
+    grid-template-areas:
+    "t1 t2 t3 t4"
+}
+.t1{
+    grid-area: t1;
+}
+.t2{
+    grid-area: t2;
+}
+.t3{
+    grid-area: t3;
+}
+.t4{
+    grid-area: t4;
+}
+.li0{
+    line-height:25px;
+}
+.glop a{
+    color: black;
+    text-decoration: none;
+}
+.glop a:hover{
+    text-decoration: underline;
+    font-size:17px;
+}

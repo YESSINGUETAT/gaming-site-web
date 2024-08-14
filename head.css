@@ -1,0 +1,120 @@
+.parent{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    display: grid;
+    gap: 75px;
+    grid-template-columns: repeat(8,lfr);
+    grid-template-rows: repeat(2,lfr);
+    width: 90%;
+    margin:auto;
+    grid-template-areas:
+    "c1 c1 c2 c2 c2 c3 c3 c4"
+    "logo c5 c6 c6 c7 c7  c7 c7"
+}
+footer{
+    background-color:black;
+    margin-left:-8px;
+    margin-right:-8px;
+}
+.c1{
+    grid-area: c1;
+
+}
+.c2{
+    grid-area: c2;
+
+}
+.c3{
+    grid-area: c3;
+
+}
+.c4{
+    grid-area: c4;
+
+}
+.logo{
+    grid-area: logo;
+
+}
+.c5{
+    grid-area: c5;
+
+}
+.c6{
+    grid-area: c6;
+
+}
+.c7{
+    grid-area: c7;
+
+}
+.ligne{
+    white-space:pre;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !important;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-size:17px;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+.spn1{
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !important;
+    text-align: center;
+    background: url(https://www.wiki.tn/wp-content/uploads/2021/10/marketplace-page-title.jpg);
+    background-size:cover;
+    background-position:center;
+    margin-top:20px;
+    height:20px;
+    padding:20px;
+    bottom:0px;
+
+}
+#input-box1{
+    flex:1;
+    height:50px;
+    outline:0;
+    font-size:16px;
+    width:400px;
+    border: double;
+    border-color:rgba(255, 128, 0, 1) ;
+}
+.buttom1{
+    flex:1;
+    height:58px;
+    outline:0;
+    font-size:16px;
+    width: 100px;
+    border: double;
+    border-color:rgba(255, 128, 0, 1);
+}
+.icon{
+    padding:10px;
+    padding-top:20px;
+}
+.parent ul{
+    list-style:none;
+
+}
+.parent h2,h3{
+    color:  rgba(255, 128, 0, 1);
+}
+.parent a{
+    color:white;
+}
+.parent li::before{
+    content:"\2022 \00A0";
+    color: rgba(255, 100, 0, 1);
+    font-size: 25px;
+
+}
+.spn1 span{
+    font-size:18px;
+
+} 

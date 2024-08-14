@@ -1,0 +1,22 @@
+.containercomment {
+    background-color: black;
+    color:white;
+  }
+  
+  .commentinput, .commentbutton {
+    padding: 10px;
+    margin: 5px;
+    border: double;
+    border-color:rgba(255, 128, 0, 1);
+    background-color: transparent;
+    color:white;
+  }
+  
+  .commentbutton {
+    background-color: transparent;
+    cursor: pointer;
+  }
+.commentinput{
+    width: 300px;
+}
+  

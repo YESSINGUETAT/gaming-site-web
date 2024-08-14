@@ -1,0 +1,237 @@
+#nav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.kbiiira1{
+    display: flex;
+    flex-direction: row;
+
+}
+#nav{
+    background-color: black;
+
+}
+#cls1{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !important;
+    font-size: large;
+}
+
+.lst1{
+    padding: 5px;
+    position:relative;
+    display: none !important;
+    background-color: black !important;
+    
+}
+
+.cls2{
+    position: sticky;
+    width: 425.9px!important;
+    top: 0;
+    left: 0;
+    background-color: black!important;
+    
+}
+
+.cls2 > .lst1{
+    display: flex;
+    list-style:none;
+}
+
+.cls2 .lis1 {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 2.5vh;
+    padding-left: 4.5vh;
+    
+}
+.gg{
+    border:solid 0.5px rgba(255, 128, 0, 1);
+}
+.lst1 li{
+    border:solid 0.5px rgba(255, 128, 0, 1);
+}
+.lst1 {
+    border:solid 0.5px rgba(255, 128, 0, 1);
+}
+.lis2{
+    display: none;
+    position: relative;
+    padding-right: 2vh;
+}   
+
+.lst2{
+    list-style:none;
+    display: none;
+    position: absolute;
+    top: 6vh;
+    left: 0;
+    background: black;
+    text-align: center;
+    
+}
+.acc:hover .nb1{
+    display: block !important;
+    position: absolute;
+    text-align: left;
+    width: 320px;
+    left: 425.9px;
+    height: 618% ;
+    top: 0px;
+}
+
+.prp:hover .nb2{
+    display: block !important;
+    position: absolute;
+    text-align: left;
+    width: 320px;
+    left:425px;
+    height: 618% ;
+    top: -104%;
+}
+
+.btq:hover .nb3{
+    display: block !important;
+    position: absolute;
+    text-align: left;
+    width: 320px;
+    left: 425px;
+    height: 618% ;
+    top:-208%;
+}
+.gg::after{
+        content:url(icons8-forward-24.png);
+        position: absolute;
+        bottom:13px;
+        left: 390px;
+}
+.blg:hover .nb4{
+    display: block !important;
+    position: absolute;
+    text-align: left;
+    width: 320px;
+    left: 425px;
+    height: 618% ;
+    top: -311%;
+
+}
+
+.ctc:hover .nb5{
+    display: block !important;
+    position: absolute;
+    text-align: left;
+    width: 320px;
+    left: 425px;
+    height: 618% ;
+    top:-414%;
+}
+
+.ctc:hover .nb6{
+    display: block !important;
+    position: absolute;
+    text-align: left;
+    width: 320px;
+    left: 425px;
+    height: 618% ;
+    top: -517%;
+}
+#content1,#content1 .description{
+    background-color: white !important;
+}
+
+.block {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: url(https://www.wiki.tn/wp-content/uploads/2021/10/marketplace-page-title.jpg);
+    background-size:cover;
+    background-position:center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+main p ,main h1{
+    color: white;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-container h1 {
+    color: rgba(255, 128, 0, 1);
+    margin-right: 10px;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !important;
+}
+
+.header-container hr {
+    width: 85%;
+}
+.listemarque{
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji' !important;
+}
+.containerimage{
+        display: flex;
+   
+}
+.containerimage img {
+    margin-right: 10px;
+    margin-top:50px ;
+    margin-bottom:50px ;
+}
+.doubleimage{
+    position: relative;
+    margin-top:100px;
+}
+.productx {
+    display: flex;
+}
+.image-container {
+    flex: 1;
+    margin-right:0px ;
+}
+.lis1{
+    position: relative;
+}
+.productx1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.productx1 .image-container {
+    flex: 1;
+}
+.image-containerzz {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .image-containerzz img {
+    max-width: 100%;
+    height: auto;
+  }
+  .image-containerzza {
+    display:inline-flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  
+  .image-containerzza img {
+    max-width: 96%;
+    height: auto;
+    
+  }
+.doubleimage a{
+    padding:5px;
+
+}
+.li a:hover{
+    color: rgba(255, 128, 0, 1) !important;
+}

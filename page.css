@@ -1,0 +1,99 @@
+.item_detail{
+    background: #fff;
+    padding:50px 0;
+}
+.item_detail .containerx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.item_detail .img_item{
+    width: 35%;
+}
+
+.item_detail .img_item .big_img img{
+    width:90%;
+    position: relative;
+    left: 85px;
+}
+.item_detail .img_item .sm_img{
+    display:flex;
+    justify-content: space-between;
+    cursor:pointer;
+    position: relative;
+    right: 50px;
+}
+.item_detail .img_item .sm_img img{
+    width:25%;
+}
+.item_detail .details_item {
+    width:45%;
+    padding-right: 0vh;
+}
+.item_detail .details_item h1{
+    margin-bottom: 30px;
+}
+.item_detail .details_item h5{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.fa-star{
+    color:gold;
+}
+.item_detail .details_item h5 span{
+    color:rgba(255, 128, 0, 1);
+}
+.item_detail .details_item .price{
+    display: flex;
+    justify-content: left;
+    margin: 20px 0 ;
+    gap:20px;
+}
+.item_detail .details_item .price p{
+    font-size: 22px;
+    color:transparent linear-gradient(100deg,#bea925  0%, rgba(255, 128, 0, 1) 83%) 0% 0% no-repeat padding-box;
+}
+.item_detail .details_item .price p.old_price{
+    color:black;
+    text-decoration: line-through;
+    text-decoration-color:red ;
+    scale:0.7;
+
+}
+.text_p{
+    line-height: 1.5;
+}
+.item_detail .details_item h4{
+    font-size: 20px;
+    margin-top:20px;
+}
+.item_detail .details_item button{
+    border:none;
+    outline: none;
+    background:transparent linear-gradient(100deg,#bea925 0%, rgba(255, 128, 0, 1) 83%) 0% 0% no-repeat padding-box;
+    color:black;
+    font-weight: blod;
+    padding: 14px 35px;
+    border-radius: 5px;
+    margin:30px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.item_detail .details_item button:hover{
+    scale:1.1;
+}
+
+#priceDifference{
+    border: solid;
+    background:transparent linear-gradient(100deg,#bea925 0%, rgba(255, 128, 0, 1) 83%) 0% 0% no-repeat padding-box; 
+    color: black;
+    height:32px;
+    font-size: 20px;
+    padding-top:2px;
+    position: relative;
+    top: 1.8vh;
+}

@@ -1,0 +1,210 @@
+
+.containercont{
+    display: flex;
+    background-color: aqua;
+}
+.facebookcont{
+    width: 33.33%;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+.instagramcont{
+    background-color: rgb(255, 255, 255);
+    width: 33.33%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+.discordcont{
+    background-color: rgb(255, 255, 255);
+    width: 33.33%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+.fa-instagram{
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.instadiv{
+    font-family: "Helvetica", sans-serif;
+    color: #e9791e;
+    text-align: center;
+    cursor: pointer;
+}
+.fa-facebook{
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.fbdiv{
+    font-family: "Helvetica", sans-serif;
+    color: #e9791e;
+    text-align: center;
+    cursor: pointer;
+}
+.fa-whatsapp{
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.discdiv{
+    font-family: "Helvetica", sans-serif;
+    color: #e9791e;
+    text-align: center;
+    cursor: pointer;
+}
+.gmailcont{
+    background-color:rgb(255, 255, 255) ;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.gtext{
+    background-color: rgb(255, 255, 255);
+    color: #383636;
+    font-size: 20px;
+}
+.gwrap{
+    background-color: rgb(255, 255, 255);
+    color: #383636;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+#ginput {
+    border: 2px solid #989898;
+    background-color: #d5d5d5;
+    border-radius: 2px;
+    margin-left: 20px;
+    height: 35px;
+    width: 300px;
+}
+.buy{
+    border: 2px solid #989898;
+    background-color: #ebe1d9;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 37px;
+    width: 80px;
+    font-family: futura;
+    font-size: 18px;
+}
+.buy:hover{
+    background-color: #acacac;
+    
+}
+.buy:active{
+    background-color: #989898;
+}
+.gmailput{
+    position: center;
+    background-color: #ffffff;
+    border:none;
+    width:500px;
+    height:150px;
+    align-items: center;
+    font-size: 30px;
+    margin:20px 20px;
+    resize: none;
+    outline: none;
+}
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: none;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 600px;
+    max-width: 80%;
+    min-height: 200px;
+    
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-header .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e9791e;
+    font-family: arial;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border:none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  #success-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: none;
+    border-radius: 10px;
+    z-index: 50;
+    background-color: white;
+    width: 400px;
+    max-width: 80%;
+    padding: 20px;
+  }
+  
+  #success-modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }

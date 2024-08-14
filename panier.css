@@ -1,0 +1,134 @@
+.cjh{
+    border: double;
+}
+.cart{
+    position:relative;
+    top:0px;
+    right:158vh;
+    background: url(https://www.wiki.tn/wp-content/uploads/2021/10/marketplace-page-title.jpg);
+    background-size:cover;
+    background-position:center;
+    z-index:1100;
+    padding: 40px;
+    border-left: 3px solid rgba(255, 128, 0, 1);
+    border-bottom: 3px solid rgba(255, 128, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 450px;
+    height: fit-content;
+    transition: 0.01s ease;
+    border-radius: 0px 0px 0px 10px;
+}
+.active{
+    position: absolute;
+    right:0;
+}
+.top_cart{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}  
+.top_cart span i{
+    font-size:35px;
+    cursor:pointer;
+    color: red;
+
+}
+.top_cart h3 span{
+    font-size:17px;
+    color:white;
+    font-weight:normal;
+
+
+}
+.items-in-cart{
+    padding:20px 0px;
+    border-block:1px solid rgba(255, 128, 0, 1);
+    margin-block: 20px;
+    height:100%;
+
+}
+.item-cart{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+.item-cart:last-child
+{
+    margin-bottom: 0px;
+}
+.item-cart img{
+    width:120px
+}
+.item-cart h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.item-cart .del{
+    outline: none;
+    border: none;
+    background: url(https://www.wiki.tn/wp-content/uploads/2021/10/marketplace-page-title.jpg);
+    color: rgba(255, 128, 0, 1);
+}
+.item-cart .del i{
+    font-size:24px;
+    cursor:pointer;
+    transition: 0.3s;
+    color:rgba(255, 128, 0, 1);
+
+}
+.item-cart .del i:hover{
+    color:rgba(255, 128, 0, 1);
+    transform: scale(1.2);
+}
+.total{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.price_cart_total{
+    color:white;
+
+}
+.bottom-cart{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    
+
+}
+.btn_cart{
+    border:2px solid #202120;
+    border-radius: 5px;
+    color: white;
+    padding:15px 0px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background:transparent linear-gradient(100deg, #bea925 0%, rgba(255, 128, 0, 1) 83%) 0% 0% no-repeat padding-box;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.trans-bg:hover{
+    background:transparent linear-gradient(100deg, #bea925 0%, rgba(255, 128, 0, 1) 83%) 0% 0% no-repeat padding-box;
+
+}
+.content h4,.content p{
+    color: white;
+    background: url(https://www.wiki.tn/wp-content/uploads/2021/10/marketplace-page-title.jpg);
+
+}
+.content{
+    background: url(https://www.wiki.tn/wp-content/uploads/2021/10/marketplace-page-title.jpg);
+}
+header a,header p,header h1{
+    color: white;
+}
+

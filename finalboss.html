@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="header (2).css">
+    <link rel="stylesheet" href="head.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="panier.css">
+    <link rel="stylesheet" type="text/css" href="product.css" >
+    <link rel="stylesheet" type="text/css" href="globale.css" >
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="livraison.css">
+    <link rel="stylesheet" href="magasin.css">
+    <link rel="stylesheet" href="livraison.css">
+    <link rel="stylesheet" href="contact-1.css">
+    <link rel="stylesheet" href="comment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="swuiperr.css">
+    <script src="https://kit.fontawesome.com/6b7c9f076a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7246f0cf6c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylebar.css">
+    <script src="https://kit.fontawesome.com/6b7c9f076a.js" crossorigin="anonymous"></script>
+    <script src="keywords.js"></script>
+    <script src="scriptpopup.js"></script>
+    <script src="panier.js"></script>
+
+    <script>
+        function updatemenu() {
+        if (document.getElementById('responsive-menu').checked == true) {
+          document.getElementById('menu').style.borderBottomRightRadius = '0';
+          document.getElementById('menu').style.borderBottomLeftRadius = '0';
+        }else{
+          document.getElementById('menu').style.borderRadius = '10px';
+        }
+      }
+    </script>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <a href="finalboss.html" class="menu-logo">
+            <img class="logo-removebg.png" src="logo-removebg-preview.png" alt="My Awesome Website"/>
+          </a>
+    </div>
+    <div class="shop">
+    </div>
+    <div class="cart">
+        <div class="top_cart">
+            <h3>My cart<span>(0ITEM in cart)</span></h3>
+            <span class="close_cart" onclick="close_cart()"><i class="fa-solid fa-square-xmark"></i></span>
+        </div>
+        <div class="items-in-cart">
+            <div class="item-cart">
+            </div>
+            <div class="item-cart">
+            </div>
+        </div>
+        <div class="bottom-cart">
+
+            <div class="total">
+                    <p>Cart Subtotal</p>
+                    <p class="price_cart_total">TND0</p>
+            </div>
+            <div class="bottom-cart">
+                    <a href="#card5" class="btn_cart trans-bg">shop more</a>
+            </div>
+
+    </div>
+    </div>
+    <script src="panier.js"></script>
+    <div class="bar">
+        <form class="search" id="searchForm">
+            <input type="text" class="searchb1" name="searchQuery" placeholder="Chercher Votre Produits">
+            <button type="reset" class="searchb2">
+                RECHERCHER
+            </button>
+        </form>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var searchForm = document.getElementById('searchForm');
+                searchForm.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    var searchQuery = searchForm.elements['searchQuery'].value;
+                    console.log("Search query:", searchQuery);
+                });
+            });
+        </script>
+    </div>
+     <div class="compte">
+        <a href="login.html">
+            <i class="fa-solid fa-circle-user fa-2x"><span class="ligne">  Mon-Compte</span></i>
+        </a>
+     </div>
+     <div class="avis">
+        <a href="contact-2.html">
+            <i class="fa-solid fa-pen-to-square fa-2x"><span class="ligne">  Vos Avis</span></i>
+        </a>
+     </div>
+    </header>
+    <nav class="menu-container" id="nav">
+
+        <script src="keywords.js"></script>
+        <input type="checkbox" aria-label="Toggle menu" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="menu">
+          <ul class="ulcategorie">
+            <li class="li">
+              <a href="#home" class="categorie">
+                TOUTES NOS CATÉGORIES &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </a>
+              <div class="cls2">
+              <ul class='sub-menus' style="background-color:black;">
+                <li class="lis1 lis2 acc gg">
+                    <a href="sqdq - Copy.html" class="a1">&nbsp;&nbsp;PC Gamers</a>
+                    <ul class="lst1 lst2 nb1">
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PC GAMER "QUBO"</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PC GAMER "QUBO"</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PC GAMER "QUBO"</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PC GAMER "QUBO"</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PC GAMER "QUBO"</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PC GAMER "QUBO"</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="lis1 lis2 prp gg">
+                    <a href="sqdq - Copy.html" class="a2">&nbsp;&nbsp;Ecran</a>
+                    <ul class="lst1 lst2 nb2">
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">4K</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">2K</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Full HD</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">VA Panel</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">LCD Panel</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">TN Panel</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="lis1 lis2 btq gg">
+                    <a href="sqdq - Copy.html" class="a3">&nbsp;&nbsp;Composantes</a>
+                    <ul class="lst1 lst2 nb3">
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Carte Graphique</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Carte mere</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Processeur</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Ssd/Hdd</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Bloc D'alimentation</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Barette Memoire</a>
+                        </li>
+                    </ul>
+
+
+                </li>
+                <li class="lis1 lis2 blg gg">
+                    <a href="sqdq - Copy.html" class="a4">&nbsp;&nbsp;Pac PC</a>
+
+                    <ul class="lst1 lst2 nb4">
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">sous-blog</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">sous-blog</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">sous-blog</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">sous-blog</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="lis1 lis2 ctc gg" >
+                    <a href="sqdq - Copy.html" class="a5">&nbsp;&nbsp;Periferiques Gaming</a>
+                    <ul class="lst1 lst2 nb5">
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Souris Gamer</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Clavier Gamer</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Tapis Gamer</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Casque Gamer</a>
+                        </li>
+                    </ul>
+
+                
+                </li>
+                <li class="lis1 lis2 ctc gg">
+                    <a href="sqdq - Copy.html" class="a6">&nbsp;&nbsp;Console</a>
+                    <ul class="lst1 lst2 nb6">
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PS4</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">PS5</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">XBOX ONE</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">XBOX SERIES X</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">Nitando Switch</a>
+                        </li>
+                        <li class="lis1 lis2">
+                            <a href="sqdq - Copy.html">XBOX SERIES S</a>
+                        </li>
+                    </ul>
+
+                
+                </li>
+              </ul>
+            </div>
+            </li>
+            <li class="li">
+              <a href="finalboss.html">
+                Accueil
+              </a>
+            </li>
+            <li class="li">
+                <a href="info.html">
+                Information
+              </a>
+            </li>
+            <li class="li">
+              <a href="#docs">
+                Docement
+              </a>
+            </li>
+          </ul>
+            <ul>
+              <li class="li">
+                <a href="signup.html" class="sign">
+                  Sign-up
+                </a>
+              </li>
+              <li class="li">
+                <a href="login.html" class="sign">
+                  Login
+                </a>
+              </li>
+            </ul>
+        </div>
+    </div>
+        <div class="shop">
+            <i onclick="open_cart()" class="fa-solid fa-bag-shopping fa-2x"></i>
+        </div>
+      </nav>
+    </div>
+    <div>
+        
+    <div class="slide-swp mySwiper kill2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide kill3">
+            <a href="#"><img src="9664886e8034263dc27b5d84ae3465e225a36e34_monitor2.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide kill3">
+            <a href="#"><img src="6e3d541826825ada9005e1e08533e9856f20b7ea_b8d92fd3b1bf2177307ee3b00f79973fb4071d32_4080-zotac-offer.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide kill3">
+            <a href="#"><img src="b2.png" alt=""></a>
+          </div>
+          <div class="swiper-slide kill3">
+            <a href="#"><img src="b1.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide kill3">
+            <a href="#"><img src="b2f2c530940734be7e958b05c712e8f5eb345380_cover_asus.jpg" alt=""></a>
+          </div>
+          <div class="swiper-slide kill3">
+            <a href="#"><img src="c2c06955fe525e420faa12da259a8ec2551ab7a5_razer1.jpg" alt=""></a>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".kill2", {
+    pagination: {
+    el: ".swiper-pagination",
+    dynamicsBullests:true,
+    clickable:true,
+    },
+    autoplay:{
+    delay:2500,
+    },
+    loop:true,
+    });
+    </script>
+    <br>
+    <br>
+      <main>
+        <div class="header-container" id="card5">
+            <h1><strong> NOS PRODUIS</strong></h1>
+            <hr style="height:3px; background-color:black; border-radius: 4px;">
+        </div>
+
+        <section class="productx">
+            <div class="image-container">
+            <div class="slide-swp2 mySwiper2">
+                        <div class="swiper-wrapper2">
+                          <div class="swiper-slide2">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="sqdq - Copy.html"><img src="Add a heading.png"></a>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination2"></div>
+                      </div>
+                </div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper(".mySwiper2", {
+              pagination: {
+                el: ".swiper-pagination2",
+                dynamicsBullests:true,
+                clickable:true,
+              },
+              autoplay:{
+                delay:2500,
+              },
+              loop:true,
+            });
+          </script>
+        </div>
+        <div class="card" >
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-qubo-pack-ryzen-5-5600g-radeon-vega-7-graphics-16gb-512-gb-white-tunisie.jpg" alt="An example image">
+                </a>
+                <div class="content">
+                <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                <p class="description">
+                    PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                </p>
+                <div class=flex>
+                <div class="price"> 2000 TND</div>
+                <button class="add-to-cart"  id="add-to-cart-btn">
+                    <i class="fa-solid fa-cart-shopping" style="color: white;"></i>Add To Cart</button>
+                </div>
+                <script src="addtocart.js"></script>
+
+            </div>
+            </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-raptor-pack-ryzen-5-5600g-radeon-vega-7-graphics-16gb-512-gb-tunisie.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 3200 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-raptor-pack-ryzen-5-4600g-16go-512go-tunisie.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 3500 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-qubo-pack-i3-12100f-rtx-3060-16gb-512-gb-black-tunisie.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 1800 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-killer-pack-i3-12100f-rtx-3050-solo-16gb-512-gb-black-tunisie.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 1750 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-raptor-pack-ryzen-5-4600g-vega-7-graphics-8go-250go-tunisie.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 2600 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-trex-pack-ryzen-7-5800x-rtx-4060-16gb-512-gb-tunisie.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 3000 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="pc-gamer-killer-pack-i3-12100f-gtx-1660-ti-16gb-512-gb-black-tunisie.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price" > 5500 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            </div>
+        </div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+</main>
+
+<div class="image-containerzz">
+    <img src="banner-1290-252px-laptop-gaming3-lenovo.png" alt="Laptop Gaming" />
+  </div>
+  <main>
+        <section class="product">
+            <br>
+            <br>
+            <br>
+            <div class="card">
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/core-i3-12100f-rtx-3050-16gb-nvme-512gb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                        <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/core-i5-10400f-gtx-1660-super-16gb-nvme-512gb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/core-i5-13400f-rtx-3070-ti-16gb-nvme-512gb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/core-i5-13400f-rtx-4060-ti-16gb-nvme-512gb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/core-i7-13700k-rtx-4070-super-32gb-nvme-m2-1tb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ryzen-7-5800x3d-rtx-4060-ti-16gb-nvme-500gb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/core-i7-14700kfrtx-4070-ti-32gb-ssd-512gb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/core-i9-14900kf-rtx-4090-32gb-nvme-1tb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ryzen-5-5600x-rtx-4060-16gb-nvme-512gb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ryzen-5-7600x-rtx-4070-32-gb-1tb.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+        <div class="image-containerzza">
+            <a href="1.html"><img src="1.png"></a>
+            <a href="2.html"><img src="2.png"></a>
+            <a href="asus.html"><img src="3.png"></a>
+          </div>
+          <main>
+        <div class="header-container">
+            <h1><strong>NOS ACCESSOIRES</strong></h1>
+            <hr style="height:3px; background-color:black; border-radius: 4px;">
+        </div>
+
+        <section class="productx1">
+            <div class="image-container">
+            <div class="slide-swp2 mySwiper2">
+                        <div class="swiper-wrapper2">
+                          <div class="swiper-slide2">
+                            <a href="sqdq - Copy.html"><img src="js/Capture1.PNG" style="height: 806px; width: 266px;"></a>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination2"></div>
+                      </div>
+                </div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper(".mySwiper2", {
+              pagination: {
+                el: ".swiper-pagination2",
+                dynamicsBullests:true,
+                clickable:true,
+              },
+              autoplay:{
+                delay:2500,
+              },
+              loop:true,
+            });
+          </script>
+        </div>
+        <div class="card">
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-asus-dual-geforce-rtx-4070-oc-white-edition-12gb.jpg" alt="An example image">
+                </a>
+                <div class="content">
+                <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                <p class="description">
+                    PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                </p>
+                <div class=flex>
+                <div class="price"> 2500 TND</div>
+                <button class="add-to-cart"  id="add-to-cart-btn">
+                    <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                    Add To Cart</button>
+                </div>
+                <script src="addtocart.js"></script>
+
+            </div>
+            </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-msi-geforce-rtx-4090-ventus-3x-e-oc-24-go-gddr6x.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 5000 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-aorus-radeon-rx570-4-go-ddr5.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 600 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-inno3d-geforce-rtx-4060-ti-twin-x2-16-go-gddr6.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 1100 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-msi-geforce-gtx-1650-d6-ventus-xs-ocv3-4-go-gddr6.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 500 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-msi-geforce-rtx-4060-gaming-x-8g-gddr6.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 800 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-msi-geforce-rtx-3050-ventus-2x-xs-oc-8-go-gddr6.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price"> 700 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            <div class="product">
+                <a class="product" href="productdetails.html">
+                    <img class="impro" src="js/carte-graphique-inno3d-geforce-rtx-4060-ti-twin-x2-16-go-gddr6.jpg" alt="An example image">
+                    
+                </a>
+                <div class="content">
+                    <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                    <p class="description">
+                        PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                    </p>
+                    <div class=flex>
+                        <div class="price" > 1200 TND</div>
+                    <button class="add-to-cart"  id="add-to-cart-btn">
+                        <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                        Add To Cart</button>
+                    </div>
+                    <script src="addtocart.js"></script>
+    
+                </div>
+                </div>
+            </div>
+        </div>
+</section>
+          </main>
+          <br>
+<br>
+<br>
+<br>
+<br>
+<div class="image-containerzz">
+    <img src="banner-1290-252-px-promo-stockage-3.jpg" alt="Laptop Gaming" />
+  </div>
+  <main>
+<br>
+<br>
+<br>
+        <section class="product">
+            <div class="card">
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/pc-portable-asus-tuf-507rf-ryzen-7-6800h-rtx-2050-4g-16-go-windows-11-noir.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 3500 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/pc-portable-asus-tuf-gaming-a15-fa506nf-ryzen-5-7535hs-rtx-2050-4g-8-go-windows-11-noir.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 2000 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/pc-portable-gamer-asus-vivobook-16x-s3605zf-i5-12500h-rtx-2050-4g-8-go-512-go-windows-11-noir.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1800 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/pc-portable-gamer-hp-victus-gaming-15-fb0036nk-ryzen-5-5600h-rtx-3050-4g-12-go-512-go-ssd-windows-11.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1700 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/pc-portable-gamer-lenovo-loq-15irh8-i5-12450h-rtx-2050-4g-8-go-windows-11-gris-avec-souris-rvb-lenovo-loq-m100.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 2100 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/pc-portable-lenovo-ideapad-gaming-3-15ach6-amd-ryzen-5-24go-rtx-2050-noir.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 2900 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ecran-asus-tuf-gaming-vg27aql3a-27-qhd-ips-180-hz-noir.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1400 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ecran-gaming-lenovo-legion-y25g-30-25-full-hd-360hz.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 1200 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ecran-gaming-redragon-azur-238-led-full-hd-180hz-noir.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 900 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ecran-gaming-redragon-memphis-27-full-hd-ips-75hz.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 500 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ecran-gaming-redragon-vaga-24-full-hd-ips-75hz.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 750 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+                <div class="product">
+                    <a class="product" href="productdetails.html">
+                        <img class="impro" src="./my product/ecran-samsung-24-full-hd-75-hz.jpg" alt="An example image">
+                        
+                    </a>
+                    <div class="content">
+                        <h3 class="title" style="color: white; padding-top:10px; text-align: center;">PC GAMER "QUBO"</h3>
+                        <p class="description">
+                            PC Gamer QUBO - Ryzen 5 5600G - Radeon Vega 7 Graphics - 16Gb - 512 Gb - BLACK
+                        </p>
+                        <div class=flex>
+                            <div class="price" > 650 TND</div>
+                        <button class="add-to-cart"  id="add-to-cart-btn">
+                            <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                            Add To Cart</button>
+                        </div>
+                        <script src="addtocart.js"></script>
+        
+                    </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+        <div class="doubleimage">
+            <a href="5.html"><img src="G2766HSU-B1-1 (1).jpg" style="height: 350px; width: 350px;"></a>
+            <a href="5.html"><img src="hyper.jpg" style="height: 350px; width: 350px;"></a>
+            <a href="5.html"><img src="335438090_145300861787087_7095965048114028002_n.jpg" style="height: 350px; width: 350px;"></a>
+            <a href="4.html"><img src="giga.jpg" style="height:350px; width: 350px;"></a>
+        </div>
+            <br>
+            <br>
+            <br>
+            <main>
+            <h1 style="color:rgba(255, 128, 0, 1); font-size: 34px;  "class="listemarque"> 
+                <strong>LISTE DE NOS MARQUE</strong> </h1>
+        </section>
+        <hr style="height:3px; background-color:black; border-radius: 4px;">
+    </main>
+    <section id="sectionswwiper">
+	<div class="swiper-container sw1" style="width:100%">
+		<div class="swiper-wrapper">
+            <div class="swiper-slide sw2" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_zotac.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_asus.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_cooler-master.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_gigabyte.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_ps5-8211-playstation-5.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="xbox-logo-png-2504.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_redragon.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_intel.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="amd-logo.png" style="width:200px; height: 200px;"></div>
+            <div class="swiper-slide sw2" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="cdnlogo.com_corsair.png" style="width:200px; height: 200px;"></div>
+	</div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 6,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false, 
+            }
+        });
+	</script>
+    </section>
+    <footer >
+        <div class="parent">
+            <div class="c1">
+                <br>
+                <div><i class="fa-solid fa-square-envelope fa-2x"></i></div>
+                <h2>Email</h2>
+                <div style="color:white;" class="ligne" >Cher client vous pouvez contacter nous sur notre e-mail:<a href="#">
+TechTower@gmail.com</a></div>
+            </div>
+            <div class="c2">
+                <br>
+                <div><i class="fa-solid fa-message fa-2x"></i></div>
+                <h2>Live chat</h2>
+                <div class="ligne" style="color:white;">Vous trouverez pour cela nos informations de contact 
+dans les conditions d'utilisation du site.</div>
+            </div>
+            <div class="c3">
+                <br>
+                <div><i class="fa-solid fa-phone-volume fa-2x"></i></i></div>
+                <h2>Phone</h2>
+                <div class="ligne" style="color:white;">Appelez-nous:
+44888190</div>
+            </div class="c4">
+            <div>
+                <br>
+                <div><i class="fa-solid fa-location-dot fa-2x"></i></div>
+                <h2>Office</h2>
+                <div class="ligne" style="color:white;">Notre localisation:<a href="#">
+15 rue el akkad 2010 La Manouba, Tunisie</a></div>
+            </div>
+            <div class="logo1">
+                <a href="finalboss.html" class="menu-logo1">
+                    <img class="logo-removebg.png" src="logo-removebg-preview.png" alt="My Awesome Website"/>
+                  </a>
+            </div>
+            <div class="c5">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li><a href="livraison.html">Livraison</a></li>
+                    <li><a href="contact-2.html">contactez-nous</a></li>
+                    <li><a href="magasin.html">Nos magasin</a></li>
+                    <li><a href="paiment.html">Paiment securise</a></li>
+                    <li><a href="Informations personelles.html">Informations personelles</a></li>
+                </ul>
+            </div>
+            <div class="c6">
+                <h3>MON COMPTE</h3>
+                <ul>
+                    <li><a href="#">Ordres</a></li>
+                    <li><a href="adresse.html">Adresses</a></li>
+                    <li><a href="info.html">Information sur notre site</a></li>
+                </ul>
+            </div>
+            <div class="c7">
+                        <h3>LETTRE D'INFORMATIONS</h3>
+                        <div class="containercomment">
+                            <form>
+                              <input type="text" class="commentinput" placeholder="Passer votre commantaire ici">
+                              <button type="submit" class="commentbutton">Valider</button>
+                            </form>
+                        </div>  
+                        <div class="icon">
+                            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                        </div>
+                    </div>
+        </div>
+        <div class="spn1">
+        <span style="color:white">© 2024</span>
+        <span style="color:rgba(255, 128, 0, 1);">"LOGO"</span>
+        <span style="color: white;" >.Tous droits réservés.Réalisé par l’agence web</span>
+        <span style="color:rgba(255, 128, 0, 1);">ALINAOUS</span>
+    </div>
+    </footer>
+</body>
+</html>

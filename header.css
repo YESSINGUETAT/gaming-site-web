@@ -1,0 +1,169 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-part-1{
+    display: flex;
+    background-color: #f2f2f2;
+    height: 50px;
+}
+.price-match-guarantee{
+    margin-left: 150px;
+    margin-top: 12px;
+    color: #293991;
+}
+.price-match-guarantee a{
+    text-decoration: none;
+    color:  #293991;
+}
+.price-match-guarantee a:hover{
+    color:rgba(255, 128, 0, 1);
+}
+.header-part-1-phone{
+    margin-left: 700px;
+    margin-top: 12px;
+    color: black;
+    
+}
+.header-part-1-phone:hover{
+    color: rgba(255, 128, 0, 1);
+}
+.vertical-line-small{
+    border-right: 2px black solid;
+    height: 25px;
+    margin: 12px 10px;
+}
+.header-part-1-lock{
+    margin-top: 12px;
+    color: black;
+}
+.header-part-1-lock:hover{
+    color: rgba(255, 128, 0, 1);
+}
+.header-part-1-user{
+    margin-top: 12px;
+    color: black;
+}
+.header-part-1-user:hover{
+    color: rgba(255, 128, 0, 1);
+}
+.currency{
+    width: 70px;
+    height: 50px;
+    background-color: lightslategray;
+    margin-left: 30px;
+    color: white;
+}
+.currency div{
+    margin-top: 12px;
+    margin-left: 19px;
+}
+.header-part-2{
+    display: flex;
+    background-color: white;
+    margin-top: 0px;
+    height: 100px;
+}
+.logo{
+    margin-left: 150px;
+    margin-top: 8px;
+}
+.search-bar input{
+    height: 35px;
+    width: 380px;
+    margin-top: 28px;
+    margin-left: 170px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.search-button{
+    height: 41px;
+    width: 60px;
+    margin-top: 28px;
+    background-color: red;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.search-button i{
+    margin-top: 12px;
+    margin-left: 19px;
+}
+.search-button:hover{
+    background-color: #293991;
+}
+.favourite{
+    margin-top: 35px;
+    margin-left: 80px;
+}
+.navbar{
+    border: 2px white solid;
+    height: 60px;
+    width: 100%;
+    background-color: #293991;
+}
+.navbar-link-holder{
+    margin-top: 19px;
+    text-align: center;
+}
+.navbar-link-holder a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.navbar-link-holder a:hover{
+    background-color: #ed1c24;
+}
+.banners{
+    border: 1px white solid;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 10px;
+}
+.banner1{
+    border: 1px white solid;
+    margin-top: 7px;
+    margin-left: 240px;
+}
+.banners img{
+    float:left;
+    margin-top: 10px;
+}
+.vertical-line-small-2{
+    border-left: 2px grey solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner2{
+    border: 1px white solid;
+    margin-top: 7px;
+}
+.banner3{
+    border: 1px white solid;
+    margin-top: 7px;
+}
+.header-part-1-phone a{
+    text-decoration: none;
+    color: black;
+}
+.header-part-1-lock a{
+    text-decoration: none;
+    color: black;
+}
+.header-part-1-user a{
+    text-decoration: none;
+    color: black;
+}
+.header-part-1-phone a:hover{
+    color: rgba(255, 128, 0, 1);
+    
+}
+.header-part-1-lock a:hover{
+    color: rgba(255, 128, 0, 1);
+}
+.header-part-1-user a:hover{
+    color: rgba(255, 128, 0, 1);
+}
